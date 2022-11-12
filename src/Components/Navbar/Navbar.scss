@@ -1,0 +1,85 @@
+.td__navbar {
+    // border: 2px solid black;
+    height: 73.03125px;
+    background-color: #fff;
+    display: block;
+    margin: 5px;
+    padding: 0px 55px;
+
+    @media screen and (max-width : 736px) {
+        padding: 0px 0px;
+    }
+}
+
+.td__navbar-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.td__profile-mobile {
+    display: none;
+
+    @media screen and (max-width : 428px) {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        background-color: #800080;
+        height: 32px;
+        color: #fff;
+        border-radius: 5px;
+        padding: 0px 5px;
+        
+        span {
+            padding: 5px 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                margin: 4px 0px 0px 7px;
+            }
+        }
+    }
+}
+
+.td__navbar-lists {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+
+    ul {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        list-style-type: none;
+
+        li {
+            color: #80008040;
+            margin: 0px 12px;
+        }
+    }
+
+    div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        span {
+            margin: 0px 5px;
+        }
+
+        .dropdownimg {
+            margin-top: 5px;
+        }
+    }
+
+    @media screen and (max-width : 428px) {
+        display: none;
+
+    }
+}

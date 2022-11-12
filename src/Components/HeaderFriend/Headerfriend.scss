@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,200;1,8..30,300;1,8..30,400&family=Poppins:wght@500&display=swap');
+
+.td__headerbar-items {
+    padding-left: 168px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-direction: column;
+
+    span {
+        margin: 10px;
+    }
+
+
+
+
+    @media screen and (max-width : 736px) {
+        padding-left: 40px;
+    }
+
+
+}
+
+.go__back {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #800080;
+    text-decoration: none;
+    // visibility: hidden; 
+    display: none; 
+    img {
+        width: 15px;
+        margin-top: 20px;
+        margin-right: 5px;
+    }
+}
+@media screen and (max-width:850px) {
+    .go__back{
+    //    visibility:visible;
+          display: block;
+    }           
+}
