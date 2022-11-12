@@ -23,6 +23,16 @@
 
 }
 
+.refer-page{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+
+    &:hover{
+        color: #800080;
+    }
+}
+
 .go__back {
     font-family: 'Poppins';
     font-style: normal;

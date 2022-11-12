@@ -11,17 +11,29 @@ const Main = () => {
     return (
         <div className='td__main'>
             <div className='td__main-top'>
-                <div className='earning__dashboard'>
-                    <div className='dashboard-top'>
-                        <div className='earning__dashboard__col col1'>Referral Earning<span>₹ 2,500</span></div>
-                        <div className='earning__dashboard__col col2'>Total Referrals<span>7</span></div>
-                        <div className='earning__dashboard__col col3'>Wallet Balance<span>₹ 500</span></div>
+                 <div className="wrraper">
+                    <div className="wrraper-top">
+                    <div className='element_1'>
+                        <span className='referral-heading'>Referral Earning</span>
+                        <span className='referral-content'>₹ 2,500</span>
                     </div>
-                    <div className='dashboard-bottom'>
-                        <div className='earning__dashboard__col col21' >Wallet Balance<span>₹ 500</span></div>
-                        <div className='btn'><button>Withdraw Balance</button></div>
+                    <div className='element_2'>
+                        <span className='referral-heading'>Total Referrals</span>
+                        <span className='span2 referral-content'>7</span>
                     </div>
-                </div>
+                    <div className='element_3'>
+                        <span className='referral-heading'>Wallet Balance</span>
+                        <span className='referral-content'>₹ 500</span>
+                    </div>
+                    </div>
+                    <div className='element_4'>
+                    <div className='element_5'>
+                        <span className='referral-heading'>Wallet Balance</span>
+                        <span className='referral-content'>₹ 500</span>
+                    </div>
+                        <button>Withdraw Balance</button>
+                        </div>
+                 </div>
                 <div className='referal__code'>
                     <span>Your Referral Code</span>
                     <div>EDCH54</div>

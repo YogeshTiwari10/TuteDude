@@ -1,8 +1,9 @@
 import React from 'react'
 import './Friends.scss'
-
+import rectangle from '../../Assets/rectangle.png'
 
 const Friends = () => {
+  const NA="NA"
   return (
     <>
     <div className='main__body'>
@@ -51,6 +52,8 @@ const Friends = () => {
               <span>UI/UX</span>
               <span>Photoshop</span>
               <span>Illustrator</span>
+              <img src={rectangle} alt={NA} className="referral-scrollbar"></img>
+
             </div>
             <div className="row4 row42">
               <span>Phython</span>
@@ -72,6 +75,8 @@ const Friends = () => {
               <span>UI/UX</span>
               <span>Photoshop</span>
               <span>Illustrator</span>
+              <img src={rectangle} alt={NA}  className="referral-scrollbar"></img>
+
             </div>
             <div className="row4 row42">
               <span>Phython</span>
