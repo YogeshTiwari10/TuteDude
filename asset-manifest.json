@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/TuteDude/static/css/main.368c8dca.css",
-    "main.js": "/TuteDude/static/js/main.6396761e.js",
+    "main.js": "/TuteDude/static/js/main.25b5bc11.js",
     "index.html": "/TuteDude/index.html",
     "main.368c8dca.css.map": "/TuteDude/static/css/main.368c8dca.css.map",
-    "main.6396761e.js.map": "/TuteDude/static/js/main.6396761e.js.map"
+    "main.25b5bc11.js.map": "/TuteDude/static/js/main.25b5bc11.js.map"
   },
   "entrypoints": [
     "static/css/main.368c8dca.css",
-    "static/js/main.6396761e.js"
+    "static/js/main.25b5bc11.js"
   ]
 }
