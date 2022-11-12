@@ -10,7 +10,7 @@ const Headerfriend = () => {
     const NA = "NA"
     return (
         <div className="td__headerbar-items">
-            <span>UI/UX &gt; <Link to="/main" className='refer-page'>Refer & Earn </Link>&gt; Friends Referred</span>
+            <span>UI/UX &gt; <Link to="/" className='refer-page'>Refer & Earn </Link>&gt; Friends Referred</span>
             <Link to="/main">
                 <span className='go__back'><img src={Arrow} alt={NA} />go back</span>
             </Link>
