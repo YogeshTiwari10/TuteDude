@@ -70,6 +70,10 @@
     line-height: 21px;
     color: #800080;
     padding: 15px 20px 2px 20px;
+    @media screen and (max-width:360px) {
+        padding: 10px 0px 0px 7px;
+
+    }
 
 }
 
@@ -92,8 +96,18 @@
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.1em;
-        padding: 18px 10px;
+        padding: 18px 1px;
     }
+}
+@media screen and (max-width:360px){
+    .code-number {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.1em;
+        padding: 17px 1px;
+    }
+
 }
 
 .enrolled {
@@ -115,6 +129,7 @@
 .enrolled-list {
     margin-top: 20px;
     display: flex;
+   
 
     div {
         display: flex;
@@ -122,16 +137,11 @@
         width: 358px;
         height: 228px;
 
-        /* NEW GRADIENT 2 */
-
-        // background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+        
         border-radius: 20px;
-        margin: 0px 10px;
+        margin: 10px 10px;
 
-        @media screen and (max-width:850px) {
-
-            margin-bottom: 20px;
-        }
+       
     }
 
     @media screen and (max-width:850px) {
@@ -274,8 +284,4 @@
         margin-top: 40px;
 
     }
-}
-
-.referral-scrollbar{
-    
 }

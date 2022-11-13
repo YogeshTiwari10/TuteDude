@@ -22,7 +22,7 @@
 .td__profile-mobile {
     display: none;
 
-    @media screen and (max-width : 428px) {
+    @media screen and (max-width : 620px) {
         display: inline-block;
         justify-content: center;
         align-items: center;
@@ -78,7 +78,7 @@
         }
     }
 
-    @media screen and (max-width : 428px) {
+    @media screen and (max-width : 620px) {
         display: none;
 
     }
