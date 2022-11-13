@@ -2,6 +2,9 @@
 
 .work {
     padding-left: 50px;
+    @media screen and (max-width : 441px) {
+        padding-left: 40px;
+        }
 }
 
 
@@ -21,6 +24,7 @@
 
 
     color: #800080;
+    
 }
 
 .work__item {
@@ -78,6 +82,15 @@
     background: rgba(217, 217, 217, 0.25);
     border-radius: 100px;
     margin-right: 20px;
+
+    @media screen and (max-width : 428px) {
+    padding-right: 15px;
+    }
+    @media screen and (max-width : 610px) {
+    padding-right: 15px;
+    }
+
+    
 }
 
 .item-heading {
