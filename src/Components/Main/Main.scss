@@ -43,14 +43,16 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    .wrraper-top{
+
+    .wrraper-top {
         display: flex;
         margin-bottom: 10px;
         justify-content: flex-end;
         align-items: flex-end;
 
     }
-    .element_1{
+
+    .element_1 {
         flex: 1;
         display: flex;
         justify-content: center;
@@ -58,7 +60,8 @@
         flex-direction: column;
 
     }
-    .element_2{
+
+    .element_2 {
         flex: 1;
         display: flex;
         justify-content: center;
@@ -67,125 +70,152 @@
         margin: 0px 7px;
 
     }
-    .element_3{
-        flex:1;
+
+    .element_3 {
+        flex: 1;
         display: flex;
         justify-content: center;
         align-items: flex-start;
         flex-direction: column;
 
     }
-    .element_4{
+
+    .element_4 {
         flex: 1;
         display: flex;
         justify-content: center;
         align-items: center;
-        .element_5{
-            flex:1;
+
+        .element_5 {
+            flex: 1;
             display: none;
         }
     }
+
     @media screen and (max-width:750px) {
         width: 100%;
         margin-left: 90px;
-        padding:2px;
-        .element_2{
+        padding: 2px;
+
+        .element_2 {
             align-items: flex-end;
-            .span2{
-               padding-right: 88px;
+
+            .span2 {
+                padding-right: 88px;
             }
         }
-        .element_3{
+
+        .element_3 {
             display: none;
         }
-       .element_4{ .element_5{
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
-            flex-direction: column;
+
+        .element_4 {
+            .element_5 {
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+            }
         }
+
     }
-        
-    }
-    @media screen and (max-width:360px){
+
+    @media screen and (max-width:360px) {
         width: 100%;
         margin-left: 90px;
-        .element_2{
+
+        .element_2 {
             align-items: flex-end;
-            .span2{
-               padding-right: 65px;
+
+            .span2 {
+                padding-right: 65px;
             }
         }
-        .element_3{
+
+        .element_3 {
             display: none;
         }
-       .element_4{ .element_5{
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
-            flex-direction: column;
+
+        .element_4 {
+            .element_5 {
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+            }
         }
-    }
-        
+
 
     }
-    @media screen and (max-width:414px){
+
+    @media screen and (max-width:414px) {
         width: 100%;
         margin-left: 90px;
-        .element_2{
+
+        .element_2 {
             align-items: flex-end;
-            .span2{
-               padding-right: 65px;
+
+            .span2 {
+                padding-right: 65px;
             }
         }
-        .element_3{
+
+        .element_3 {
             display: none;
         }
-       .element_4{ .element_5{
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
-            flex-direction: column;
+
+        .element_4 {
+            .element_5 {
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+            }
         }
-    }
 
     }
 }
 
-.referral-heading{
+.referral-heading {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 21px;
-color: #800080;
-}
-.referral-content{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 48px;
-color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #800080;
 }
 
-button{
+.referral-content {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+}
+
+button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
 
 
-color: #FFFFFF;
-width: 180px;
-height: 40px;
-left: 153px;
-top: 119px;
+    color: #FFFFFF;
+    width: 180px;
+    height: 40px;
+    left: 153px;
+    top: 119px;
 
-background: #800080;
-border-radius: 20px;
+    background: #800080;
+    border-radius: 20px;
+
+    @media screen and (max-width:360px) {
+        width: 141px;
+        height: 50px;
+    }
 }
 
 
